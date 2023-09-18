@@ -5,7 +5,7 @@ body
 }
 h1
 {
-	color: #ff0a54;
+	color: #2980b9;
 	text-align: center;
 }
 #mensaje{
@@ -18,7 +18,7 @@ h1
   padding:20px 0 0 50px;
   font-family:sans-serif;
   font-weight:bold;
-  font-size:5px;
+  font-size:10px;
   z-index:2;
 }
 
