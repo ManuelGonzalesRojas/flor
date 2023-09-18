@@ -37,7 +37,7 @@ function asignarEvento(){
 }
 function colorAleatorio(){
 
-  return "rgb("+200+","+240+","+249+")";
+  return "rgb("+255+","+255+","+255+")";
 }
 function animar(event){
   var id_petalo = event.target.id;
@@ -64,7 +64,7 @@ function validarJugada(petalo){
   mensaje.className = "mostrar animated fadeIn";
   setTimeout(()=>{
     mensaje.className = "hidden";
-  },1500);
+  },3000);
 
 }
 /*window.onload = init;

@@ -1,6 +1,6 @@
 body
 {
-	background-color: #c0fdff;
+	background-color: #FFFFFF;
 	font-family: Arial;
 }
 h1
@@ -14,24 +14,14 @@ h1
   border-radius:80px;
   width:200px;
   height:30px;
-  background:#FFFFFF;  
+  background:#D8A8E2;  
   padding:20px 0 0 50px;
   font-family:sans-serif;
   font-weight:bold;
-  font-size:10px;
+  font-size:5px;
   z-index:2;
 }
-#mensaje:after{
-  content:" ";
-  position:absolute;
-  width:40px;
-  height:60px;
-  top:50px;
-  left:50px;
-  border-radius:20px;
-  box-shadow: inset 0px 0px #FFFFFF, inset -16px 0px 1px 2px #FFFFFF;
-  z-index:1;
-}
+
 #intro p{
   width:400px;
   margin:20px auto;
@@ -169,21 +159,6 @@ div.petalo
   width: 394px;
 }
 
-#botonVolver {
-  margin-top: 100px;
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #3498db; /* Change to your desired background color */
-  color: #fff; /* Text color */
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-}
-.centrar{
-    display: flex;
-    justify-content: center;
-}
 
 /* Add hover effect for the button */
 #botonVolver:hover {
