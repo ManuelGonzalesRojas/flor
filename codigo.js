@@ -53,7 +53,7 @@ function validarJugada(petalo){
   
   if(valores[indice-1])
   {
-    str = "Feliz Primavera Ross";
+    str = "Feliz Primavera!!😊";
   }
   else
   {
